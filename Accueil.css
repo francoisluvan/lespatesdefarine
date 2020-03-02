@@ -1,0 +1,194 @@
+@media screen and (min-width: 800px) {
+
+  #logo{
+    width : 40%;
+    height : 20em;
+
+  }
+  nav ul li:first-of-type{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+  }
+  nav ul li:last-of-type{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+  }
+  button {
+    height : 50px;
+    border-radius: 15px;
+
+
+
+    width : 20%;
+
+  }
+  #flex1, #flex2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : auto;
+  }
+#flex2 {
+  width:100%;
+  align-items: center;
+}
+nav{
+  width : 80%;
+  display: inline;
+}
+#search{ display: inline;
+margin-top: 0px}
+nav ul {
+  display : flex;
+  flex-direction: row;
+  width : 100%;
+
+  border-radius: 10px;
+
+
+}
+
+nav ul li{
+  text-align: center;
+list-style-type: none;
+padding: 10px;
+border: solid black 0.2px;
+
+border-radius: 1px 1px 1px 1px;
+width : 20%;
+}
+#content {
+  display : flex;
+  flex-direction: row;
+}
+#bloc1, #bloc2 {
+  margin : 4%;
+}
+.titre {
+
+ padding : 10px;
+ border-radius: 5px;
+ width : 95%;
+}
+
+#menu2 {
+  background-color: rgba(117, 190, 218, 0.0);
+
+  border : solid #8D2B16 2px;
+  border-radius: 5px;
+}
+#search {
+  height : 2em;
+
+}
+video {
+  width : 100%;
+  margin-bottom: 50px
+}
+
+#Jean_Farine{
+  width : 100%;
+  margin : 5%;
+}
+
+#content2 {
+  margin-top: 5%;
+  width : 100%;
+}
+.contenu {
+  display : flex;
+  flex-direction: column;
+  width:95%;
+}
+
+#mavideo {
+  width : 100%;
+  margin-bottom: 10%;
+}
+
+#photo, #histoire {
+  width : 50%;
+  margin : 2%
+}
+
+.Nouveautes {
+  width : 20%;
+  height: 25%;
+  margin : 1%;
+}
+
+#mesimages {
+  display : flex;
+  flex-direction: row;
+}
+
+#nouveautebox{
+  display : flex;
+  flex-direction: row;
+}
+
+}
+/* Il se termine ici*/
+
+
+.titre{
+  background-color:  #8D2B16;
+  color : white;
+}
+
+
+nav ul li{
+  color: white;
+  font-family: 'Dancing Script';
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #8D2B16;
+}
+
+nav ul li a {
+  color: white;
+  font-family: 'Dancing Script';
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+button{
+    background-color: #8D2B16;
+    color : white;
+    font-family:  tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+h2{
+  font-family: 'Dancing Script';
+  margin : 10px;
+
+}
+
+
+
+body {
+    font-family: tahoma, sans-serif;
+
+  }
+
+#ferme {
+  height : 25em;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+li:hover {
+  opacity: 0.5;
+}
