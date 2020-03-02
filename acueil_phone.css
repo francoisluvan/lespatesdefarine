@@ -1,4 +1,8 @@
 @media  screen and (max-width:800px) {
+  h1 {
+    font-family: 'Shrikhand', ;
+  }
+
   #flex1{
     display: flex;
     flex-flow: column-reverse;
@@ -62,4 +66,36 @@ a { color: black;
 #nouveautebox img {
   width:100%
 }
+
+h2{
+  font-family: 'Dancing Script';
+  margin : 10px;
+}
+
+}
+
+h1 {
+  font-family: 'Shrikhand', ;
+}
+
+
+footer{
+  display : flex;
+  flex-direction: column;
+  background-color: #8D2B16;
+  color : white;
+}
+
+#monfooter {
+    background-color: #8D2B16;
+}
+
+.footerelements {
+  display : flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color : white;
 }

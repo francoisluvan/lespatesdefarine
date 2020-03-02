@@ -164,7 +164,10 @@ button{
 h2{
   font-family: 'Dancing Script';
   margin : 10px;
+}
 
+h1 {
+  font-family: 'Shrikhand', ;
 }
 
 
@@ -180,12 +183,27 @@ body {
 }
 
 
+footer{
+  display : flex;
+  flex-direction: column;
+
+  color : white;
+}
+
+#monfooter {
+    background-color: #8D2B16;
+}
 
 
+.footerelements {
+  display : flex;
+  flex-direction: row;
+}
 
-
-
-
+footer a {
+  text-decoration: none;
+  color : white;
+}
 
 
 
